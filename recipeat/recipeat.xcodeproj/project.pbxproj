@@ -11,6 +11,14 @@
 		3E9D261A29680B8B00E8A55E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9D261929680B8B00E8A55E /* ContentView.swift */; };
 		3E9D261C29680B8E00E8A55E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9D261B29680B8E00E8A55E /* Assets.xcassets */; };
 		3E9D261F29680B8E00E8A55E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E9D261E29680B8E00E8A55E /* Preview Assets.xcassets */; };
+		3EEE3406296B21450065E2E4 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE3405296B21450065E2E4 /* AccountView.swift */; };
+		3EEE3408296B21820065E2E4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE3407296B21820065E2E4 /* HomeView.swift */; };
+		3EEE340B296B21C80065E2E4 /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE340A296B21C80065E2E4 /* OrdersView.swift */; };
+		3EEE340D296B21E10065E2E4 /* SubscriptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE340C296B21E10065E2E4 /* SubscriptionsView.swift */; };
+		3EEE340F296B22160065E2E4 /* NewOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE340E296B22160065E2E4 /* NewOrderView.swift */; };
+		3EEE3411296B24A00065E2E4 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE3410296B24A00065E2E4 /* RecipeView.swift */; };
+		3EEE3413296B27420065E2E4 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE3412296B27420065E2E4 /* TabBar.swift */; };
+		3EEE3415296B28250065E2E4 /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEE3414296B28250065E2E4 /* NewRecipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		3E9D261929680B8B00E8A55E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E9D261B29680B8E00E8A55E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E9D261E29680B8E00E8A55E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EEE3405296B21450065E2E4 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		3EEE3407296B21820065E2E4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3EEE340A296B21C80065E2E4 /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		3EEE340C296B21E10065E2E4 /* SubscriptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsView.swift; sourceTree = "<group>"; };
+		3EEE340E296B22160065E2E4 /* NewOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewOrderView.swift; sourceTree = "<group>"; };
+		3EEE3410296B24A00065E2E4 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		3EEE3412296B27420065E2E4 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		3EEE3414296B28250065E2E4 /* NewRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E69681A2968CC2B006C459B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E69681B2968CC32006C459B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3EEE3402296B20E10065E2E4 /* Main */,
+				3EEE3404296B21010065E2E4 /* Components */,
+				3EEE3403296B20EE0065E2E4 /* Detail */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3E9D260B29680B8B00E8A55E = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +85,9 @@
 			isa = PBXGroup;
 			children = (
 				3E9D261729680B8B00E8A55E /* recipeatApp.swift */,
-				3E9D261929680B8B00E8A55E /* ContentView.swift */,
+				3E69681B2968CC32006C459B /* Views */,
+				3EEE3401296B20B10065E2E4 /* ViewModels */,
+				3E69681A2968CC2B006C459B /* Models */,
 				3E9D261B29680B8E00E8A55E /* Assets.xcassets */,
 				3E9D261D29680B8E00E8A55E /* Preview Content */,
 			);
@@ -65,6 +100,43 @@
 				3E9D261E29680B8E00E8A55E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3EEE3401296B20B10065E2E4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3EEE3402296B20E10065E2E4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3EEE3407296B21820065E2E4 /* HomeView.swift */,
+				3E9D261929680B8B00E8A55E /* ContentView.swift */,
+				3EEE3412296B27420065E2E4 /* TabBar.swift */,
+				3EEE3405296B21450065E2E4 /* AccountView.swift */,
+				3EEE340A296B21C80065E2E4 /* OrdersView.swift */,
+				3EEE340C296B21E10065E2E4 /* SubscriptionsView.swift */,
+				3EEE340E296B22160065E2E4 /* NewOrderView.swift */,
+				3EEE3410296B24A00065E2E4 /* RecipeView.swift */,
+				3EEE3414296B28250065E2E4 /* NewRecipeView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3EEE3403296B20EE0065E2E4 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		3EEE3404296B21010065E2E4 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +209,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EEE3413296B27420065E2E4 /* TabBar.swift in Sources */,
+				3EEE3415296B28250065E2E4 /* NewRecipeView.swift in Sources */,
+				3EEE340B296B21C80065E2E4 /* OrdersView.swift in Sources */,
+				3EEE3406296B21450065E2E4 /* AccountView.swift in Sources */,
+				3EEE3408296B21820065E2E4 /* HomeView.swift in Sources */,
+				3EEE340D296B21E10065E2E4 /* SubscriptionsView.swift in Sources */,
+				3EEE340F296B22160065E2E4 /* NewOrderView.swift in Sources */,
 				3E9D261A29680B8B00E8A55E /* ContentView.swift in Sources */,
+				3EEE3411296B24A00065E2E4 /* RecipeView.swift in Sources */,
 				3E9D261829680B8B00E8A55E /* recipeatApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
