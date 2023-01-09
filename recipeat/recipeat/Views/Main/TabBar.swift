@@ -17,13 +17,12 @@ struct TabBar: View {
             
             SubscriptionsView()
                 .tabItem{
-                    Label("Subscription", systemImage: "star.circle")
+                    Label("Subscriptions", systemImage: "star.circle")
                 }
             
-
             NewRecipeView()
                 .tabItem{
-                    Label("New", systemImage: "plus")
+                    Label("New Recipe", systemImage: "plus")
                 }
             
             OrdersView()
