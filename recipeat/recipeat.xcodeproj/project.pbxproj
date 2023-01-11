@@ -126,7 +126,6 @@
 				3EEE340A296B21C80065E2E4 /* OrdersView.swift */,
 				3EEE340C296B21E10065E2E4 /* SubscriptionsView.swift */,
 				3EEE340E296B22160065E2E4 /* NewOrderView.swift */,
-				3EEE3410296B24A00065E2E4 /* RecipeView.swift */,
 				3EEE3414296B28250065E2E4 /* NewRecipeView.swift */,
 			);
 			path = Main;
@@ -135,6 +134,7 @@
 		3EEE3403296B20EE0065E2E4 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				3EEE3410296B24A00065E2E4 /* RecipeView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
