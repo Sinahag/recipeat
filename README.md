@@ -1,3 +1,3 @@
 # recipeat
-![Home Screen](images/home.png)
-![Recipe Screen](images/recipe.png)
+![Home Screen](home.png)
+![Recipe Screen](recipe.png)
